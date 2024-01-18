@@ -84,7 +84,6 @@ async def start(bot: Client, cmd: Message):
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/BadmasHub"),
                         InlineKeyboardButton("YouTube Channel", url="https://youtube.com/@ishucodes")
-                
                 ]
             )
         )
