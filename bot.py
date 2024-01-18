@@ -72,19 +72,6 @@ async def start(bot: Client, cmd: Message):
             Config.HOME_TEXT.format(cmd.from_user.first_name, cmd.from_user.id),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/Ewo4mHub")
-                    ],
-                    [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
-                    ],
-                    [
-                        InlineKeyboardButton("Support Group", url="https://t.me/BadmasHub"),
-                        InlineKeyboardButton("YouTube Channel", url="https://youtube.com/@ishucodes")
-                ]
             )
         )
     else:
